@@ -132,3 +132,4 @@
 		<rdfs:label>derivedAnnoBodyType</rdfs:label>
 		<rdfs:comment>The type of the resource in the body of the derived Annotation (e.g. TextualBody, ExternalResource, etc.).</rdfs:comment>
 	</rdf:Property>
+</rdf:RDF>
