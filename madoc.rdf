@@ -121,4 +121,14 @@
 		<rdfs:comment>UI: Generic fallback between additional input methods described via ui:inputOptions.</rdfs:comment>
 		<rdfs:label>fallbackOptions</rdfs:label>
 	</rdf:Property>
+		<rdf:Property rdf:about="http://www.digirati.com/ns/madoc#group">
+		<rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
+		<rdfs:comment>Capture model object is a group, comprising one or more capture model elements. </rdfs:comment>
+		<rdfs:label>group</rdfs:label>
+	</rdf:Property>
+		<rdf:Property rdf:about="http://www.digirati.com/ns/madoc#element">
+		<rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
+		<rdfs:comment>Capture model object is an element, i.e. a single data capture element (form field, picker, etc.)</rdfs:comment>
+		<rdfs:label>element</rdfs:label>
+	</rdf:Property>
 </rdf:RDF>
