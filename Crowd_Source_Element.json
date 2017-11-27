@@ -1,0 +1,209 @@
+{
+    "o:label": "Crowd Source Element",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/www.w3.org\/2000\/01\/rdf-schema",
+            "vocabulary_label": "The RDF Schema vocabulary (RDFS)",
+            "local_name": "label",
+            "label": "label"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/www.w3.org\/2000\/01\/rdf-schema",
+            "vocabulary_label": "The RDF Schema vocabulary (RDFS)",
+            "local_name": "range",
+            "label": "range"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "conformsTo",
+            "label": "Conforms To"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/www.digirati.com\/ns\/crowds",
+            "vocabulary_label": "Crowds: Crowd Source Vocabulary for defining capture models.",
+            "local_name": "uiInputType",
+            "label": "uiInputType"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/www.digirati.com\/ns\/crowds",
+            "vocabulary_label": "Crowds: Crowd Source Vocabulary for defining capture models.",
+            "local_name": "derivedAnnoBodyPurpose",
+            "label": "derivedAnnoBodyPurpose"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/www.digirati.com\/ns\/crowds",
+            "vocabulary_label": "Crowds: Crowd Source Vocabulary for defining capture models.",
+            "local_name": "derivedAnnoBodyFormat",
+            "label": "derivedAnnoBodyFormat"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/www.digirati.com\/ns\/crowds",
+            "vocabulary_label": "Crowds: Crowd Source Vocabulary for defining capture models.",
+            "local_name": "derivedAnnoBodyType",
+            "label": "derivedAnnoBodyType"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "isPartOf",
+            "label": "Is Part Of"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/www.digirati.com\/ns\/crowds",
+            "vocabulary_label": "Crowds: Crowd Source Vocabulary for defining capture models.",
+            "local_name": "uiSelectorType",
+            "label": "uiSelectorType"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/www.digirati.com\/ns\/crowds",
+            "vocabulary_label": "Crowds: Crowd Source Vocabulary for defining capture models.",
+            "local_name": "derivedAnnoMotivatedBy",
+            "label": "derivedAnnoMotivatedBy"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/www.digirati.com\/ns\/crowds",
+            "vocabulary_label": "Crowds: Crowd Source Vocabulary for defining capture models.",
+            "local_name": "uiSelectorValue",
+            "label": "uiSelectorValue"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/www.digirati.com\/ns\/crowds",
+            "vocabulary_label": "Crowds: Crowd Source Vocabulary for defining capture models.",
+            "local_name": "uiRequired",
+            "label": "uiRequired"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/www.digirati.com\/ns\/crowds",
+            "vocabulary_label": "Crowds: Crowd Source Vocabulary for defining capture models.",
+            "local_name": "uiInputOptions",
+            "label": "uiInputOptions"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/www.digirati.com\/ns\/crowds",
+            "vocabulary_label": "Crowds: Crowd Source Vocabulary for defining capture models.",
+            "local_name": "uiHidden",
+            "label": "uiHidden"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/www.digirati.com\/ns\/crowds",
+            "vocabulary_label": "Crowds: Crowd Source Vocabulary for defining capture models.",
+            "local_name": "uiFormGroup",
+            "label": "uiFormGroup"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/www.digirati.com\/ns\/crowds",
+            "vocabulary_label": "Crowds: Crowd Source Vocabulary for defining capture models.",
+            "local_name": "uiInputDefaultValue",
+            "label": "uiInputDefaultValue"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/dcmitype\/",
+        "vocabulary_label": "Dublin Core Type",
+        "local_name": "InteractiveResource",
+        "label": "Interactive Resource"
+    }
+}
