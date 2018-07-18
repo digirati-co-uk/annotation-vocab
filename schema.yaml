@@ -1,0 +1,118 @@
+---
+id: "http://www.digirati.com/ns/capture-model-schema/0.1#"
+$schema: "http://json-schema.org/draft-06/schema#"
+description: Capture model for annotation studio
+vocabulary:
+  madoc: http://www.digirati.com/ns/madoc#
+  dcterms: http://purl.org/dc/terms/
+  oa: http://www.w3.org/ns/oa#
+  crowds: http://www.digirati.com/ns/crowds#
+mapping:
+  title: dcterms:title
+  description: dcterms:description
+  combine: crowds:derivedAnnoCombine
+  externalise: crowds:derivedAnnoExternalize
+  humanReadable: crowds:derivedAnnoHumanReadable
+  serialize: crowds:derivedAnnoSerialize
+  component: crowds:uiComponent
+  selectorType:
+    '@id': crowds:uiSelectorType
+    '@type': '@id'
+  fields: dcterms:hasPart
+  inputType: 
+    '@id': crowds:uiInputType
+    '@type': '@id'
+  purpose: crowds:derivedAnnoBodyPurpose
+  bodyType:
+    '@id': crowds:derivedAnnoBodyType
+    '@type': '@id'
+  motivatedBy: 
+    '@id': crowds:derivedAnnoMotivatedBy
+    '@type': '@id'
+  required: crowds:uiRequired
+  conformsTo: 
+    '@id': dcterms:conformsTo
+    '@type': '@id'
+type: object
+properties:
+  title:
+    type: string
+    description: dcterms:title
+  description:
+    type: string
+    description: dcterms:description
+  combine:
+    type: boolean
+    default: false
+    description: crowds:derivedAnnoCombine
+  externalise:
+    type: boolean
+    default: false
+    description: crowds:derivedAnnoExternalize
+  humanReadable:
+    type: boolean
+    default: false
+    description: crowds:derivedAnnoHumanReadable
+  serialize:
+    type: boolean
+    default: false
+    description: crowds:derivedAnnoSerialize
+  component:
+    type: string
+    enum:
+      tagging: Tagging
+      resource: Resource
+    description: crowds:uiComponent
+  selectorType:
+    type: string
+    enum:
+      WholeCanvasSelector: 'Whole canvas'
+      madoc:pin: 'Pin selector'
+      madoc:boxdraw: 'Box draw selector'
+  fields:
+    type: array
+    minItems: 1
+    items:
+      type: object
+      properties:
+        title:
+          type: string
+          description: dcterms:title
+        inputType:
+          type: string
+          enum:
+            madoc:textbox: 'Textbox'
+            madoc:fallbackOptions: 'Fallback auto-complete'
+            madoc:hiddenvalue: 'Hidden'
+            madoc:resource: 'Resource'
+            madoc:nullableCaptureModel: 'Nullable resource'
+            madoc:mappicker: 'Map picker'
+            madoc:datepicker: 'Date picker'
+            madoc:textarea: 'Text area'
+            madoc:dropdown: 'Drop down'
+            madoc:autocomplete: 'Autocomplete'
+        purpose:
+          type: string
+          description: crowds:derivedAnnoBodyPurpose
+        bodyType:
+          type: string
+          enum:
+            oa:TextualBody: 'Textual Body'
+          description: crowds:derivedAnnoBodyType
+        motivatedBy:
+          type: string
+          description: crowds:derivedAnnoMotivatedBy
+        required:
+          type: boolean
+          default: false
+          description: crowds:uiRequired
+        conformsTo:
+          type: string
+          description: dcterms:conformsTo
+      required:
+        - title
+        - inputType
+        - conformsTo
+required:
+- title
+- fields
