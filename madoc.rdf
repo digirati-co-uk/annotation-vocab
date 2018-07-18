@@ -26,6 +26,11 @@
 		<rdfs:comment>UI: Render a TEXTAREA to capture input for value of annotation body.</rdfs:comment>
 		<rdfs:label>textarea</rdfs:label>
 	</rdf:Property>
+	<rdf:Property rdf:about="http://www.digirati.com/ns/madoc#htmlfield">
+		<rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
+		<rdfs:comment>UI: Render a WYSIWYG to capture input for value of annotation body.</rdfs:comment>
+		<rdfs:label>htmlfield</rdfs:label>
+	</rdf:Property>
 	<rdf:Property rdf:about="http://www.digirati.com/ns/madoc#listbox">
 		<rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
 		<rdfs:comment>UI: Render a DROPDOWN LIST to capture input for value of annotation body.</rdfs:comment>
